@@ -1,0 +1,43 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    height: 80vh;
+   
+}
+#container:hover{
+    box-shadow: 0.1rem 0.1rem 0.8rem #c4c4c4;
+}
+h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: fantasy;
+}
+input{
+    width: 20rem;
+    height: 5rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+}
+button{
+    font-size: 1.5rem;
+    width: 5rem;
+    padding: 0.5rem;
+   
+}
+.last-btn{
+    background-color: #142A3E;
+    color: white;
+}
+.slide-btn{
+    background-color: #103246;
+    color: white;
+}
+button{
+    background-color: #031242;
+    color: white;
+}
