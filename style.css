@@ -1,89 +1,17 @@
- /*reset code for css start  */
- *{
-    margin: 0px;
-   padding: 0px;
-
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    margin: auto;
 }
-
- /*reset code for css end  */
-
- /* conatiner-main code for css start*/
-
-
-
-   .container-main{
-                     background-color: whitesmoke;
-                     
-                     max-width: 280px;
-                     margin: 0 auto;
-                     text-align: center;
-                     justify-content: center;
-                   
-
-   }
-
-   .container-main:hover{
-      box-shadow: 3px 6px 10px black;
-                   
-
-   }
-
-
-  /* conatiner-main code for css end*/
-
-  /* fill-text code for css start */
-
-      h2{
-         
-          margin: 5px;
-
-      }
-
-      .fill-text,input{
-                      width: 210px;
-                      height: 80px;
-                      font-size: 1.5rem;
-                      font-weight: bolder;
-                     text-align: right;
-                     
-                     
-               
-      }
-
- 
-
-        /* fill-text code for css end */
-
-
-         /* buttom code for css start */
-      button{
-              width: 50px;
-              padding: 15px;
-              color: white;
-             
-              
-      }
-        
-
-      .b-s{
-                   background-color: rgb(65, 29, 29);
-                  
-      }
-
-
-      .b-d{
-             background-color: gray;
-             
-
-      }
-
-
-       .b-r{
-          background-color: brown;
-          
-       }
-
-
-         /* buttom code for css end */
-
-   
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+tr:nth-child(odd){
+    background-color: yellowgreen;
+}
+tr:nth-child(even){
+    background-color: green;
+}
