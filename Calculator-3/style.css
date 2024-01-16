@@ -1,0 +1,75 @@
+/* common code start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #8c9eff;
+}
+/* common code end */
+/* container code start */
+#container {
+  width: 300px;
+  height: 50vh;
+  margin: 200px auto;
+  border-radius: 10px;
+  background-color: #212129;
+}
+/* container code end */
+/* input header start */
+.input-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.input-header span {
+  color: #fff;
+}
+.input-header-icon i {
+  color: #fff;
+}
+.input {
+  width: 290px;
+  height: 12vh;
+  background-color: #212129;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-indent: 1rem;
+  text-align: right;
+}
+/* input header end */
+/* calculator item start */
+.calculator-item {
+  padding: 5px;
+}
+.calculator-item button {
+  width: 67px;
+  height: 40px;
+  font-size: 1.2rem;
+  background-color: #2b2d35;
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.calculator-item .third-btn {
+  width: 139px;
+}
+.calculator-item .assign-btn {
+  background-color: #b15d5e;
+}
+.calculator-item button {
+  color: white;
+}
+/* calculator item end */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+#container{
+  height: 55vh;
+}
+}
